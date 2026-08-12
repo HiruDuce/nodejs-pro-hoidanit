@@ -1,0 +1,44 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "esModuleInterop": true,
+    "target": "es6",
+    "sourceMap": true,
+    "skipLibCheck": true,
+    "outDir": "dist",
+    "rootDir": "src",
+    "baseUrl": ".",
+    "paths": {
+      "config/*": [
+        "./src/app/_config/*"
+      ],
+      "database/*": [
+        "./src/database/*"
+      ],
+      "controllers/*": [
+        "./src/controllers/*"
+      ],
+      "models/*": [
+        "./src/models/*"
+      ],
+      "routes/*": [
+        "./src/routes/*"
+      ],
+      "services/*": [
+        "./src/services/*"
+      ],
+      "views/*": [
+        "./src/views/*"
+      ],
+      "middleware/*": [
+        "./src/middleware/*"
+      ],
+      "utils/*": [
+        "./src/utils/*"
+      ],
+      "scripts/*": [
+        "./src/scripts/*"
+      ]
+    }
+  }
+}
